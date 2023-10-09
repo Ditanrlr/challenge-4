@@ -14,12 +14,6 @@
     flex-direction: column;
     text-align: center;
   }
-  #form-search {
-    display: flex;
-    justify-content: space-evenly;
-    flex-direction: column;
-    text-align: center;
-  }
   .wrap-search {
     display: flex;
     flex-direction: column;
@@ -98,4 +92,9 @@
   border: 1px solid #cecccc;
   padding: 5px;
   border-radius: 5px;
+}
+@media (max-width: 1300px) {
+  #form-search {
+    flex-direction: column;
+  }
 }
