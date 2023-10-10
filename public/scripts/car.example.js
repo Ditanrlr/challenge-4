@@ -25,7 +25,7 @@ class Car {
 
   render() {
     return `
-        <div class="card px-2 shadow-sm p-2 bg-body rounded border border-0" style="width:100% ; height:550px ;"  >
+        <div class="card tampil px-2 shadow-sm p-2 bg-body rounded border border-0" style="width:100% ; height:550px ;"  >
             <img src="${this.image}" width="50" height="200" class="card-img-top mt-2 text-center">
         <div class="card-body">
             <h5 class="card-title fs-6">${this.manufacture}/${this.model}</h5>

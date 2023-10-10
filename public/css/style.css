@@ -19,6 +19,10 @@
     flex-direction: column;
     text-align: center;
   }
+  .tampil {
+    display: flex;
+    flex-direction: column;
+  }
 }
 .why {
   padding: 10px;
@@ -93,7 +97,7 @@
   padding: 5px;
   border-radius: 5px;
 }
-@media (max-width: 1300px) {
+@media (max-width: 1000px) {
   #form-search {
     flex-direction: column;
   }
