@@ -19,10 +19,6 @@
     flex-direction: column;
     text-align: center;
   }
-  .tampil {
-    display: flex;
-    flex-direction: column;
-  }
 }
 .why {
   padding: 10px;

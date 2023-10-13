@@ -15,6 +15,7 @@ class App {
   }
 
   run = () => {
+    this.clear();
     Car.list.forEach((car) => {
       const node = document.createElement("div");
       node.classList.add("col-lg-4", "my-3", "justify-content-center");
